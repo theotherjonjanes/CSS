@@ -1,6 +1,6 @@
 
 body {
-    background: #534E4B;
+    background: #5eaec5;
     font-family: 'Press Start 2P', cursive;
 }
 
@@ -22,28 +22,28 @@ body {
     width: 50vw;
     height: 20vw;
     border-radius: 0.25vw;
+    box-shadow: 0vw 0vw 0.05vw 0.05vw #2C2823;
 }
 
 .controller-inner-box {
-    background: #2C2823;
+    background: #36312c;
     position: relative;
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 48vw;
     height: 16vw;
+    border-radius: 0.25vw;
 }
 
 .left-inner-box {
     position: fixed;
-    display: inline-block;
     width: 16vw;
     height: 16vw;
 }
 
 .center-inner-box {
     position: fixed;
-    display: inline-block;
     left: 16vw;
     width: 12vw;
     height: 16vw;
@@ -51,14 +51,12 @@ body {
 
 .right-inner-box {
     position: fixed;
-    display: inline-block;
     left: 30vw;
     width: 18vw;
     height: 16vw;
 }
 
 .center-decorative-box {
-    display: inline-block;
     position: fixed;
     background: #A3A2A0;
     width: 14vw;
@@ -66,7 +64,6 @@ body {
 }
 
 .center-button-box {
-    display: inline-block;
     position: fixed;
     background: #A3A2A0;
     width: 14vw;
@@ -125,6 +122,7 @@ body {
     width: 4.5vw;
     height: 1.5vw;
     border-radius: 0.25vw;
+    box-shadow: 0vw -0.15vw 0vw 0.2vw black;
 }
 
 .right-button {
@@ -136,6 +134,7 @@ body {
     width: 4.5vw;
     height: 1.5vw;
     border-radius: 0.25vw;
+    box-shadow: 0vw -0.15vw 0vw 0.2vw black;
 }
 
 .up-down-outer-box {
@@ -160,12 +159,34 @@ body {
     border-radius: 0.4vw;
 }
 
+.up-down-inner-shadow {
+    position: fixed;
+    top: 58%;
+    left: 8vw;
+    transform: translate(-50%, -50%);
+    background: black;
+    width: 3.5vw;
+    height: 10.5vw;
+    border-radius: 0.4vw;
+}
+
+.left-right-inner-shadow {
+    position: fixed;
+    top: 58%;
+    left: 8vw;
+    transform: translate(-50%, -50%);
+    background: black;
+    width: 10.5vw;
+    height: 3.5vw;
+    border-radius: 0.4vw;
+}
+
 .up-down-inner-box {
     position: fixed;
     top: 58%;
     left: 8vw;
     transform: translate(-50%, -50%);
-    background: #1E1B18;
+    background: #2C2823;
     width: 3vw;
     height: 10vw;
 }
@@ -175,7 +196,7 @@ body {
     top: 58%;
     left: 8vw;
     transform: translate(-50%, -50%);
-    background: #1E1B18;
+    background: #2C2823;
     width: 10vw;
     height: 3vw;
 }
@@ -189,11 +210,11 @@ body {
     height: 0; 
     border-top: 1vw solid transparent;
     border-bottom: 1vw solid transparent;
-    border-right: 2.5vw solid #2C2823;
+    border-right: 2.5vw solid #363330;
 }
 
 .center-circle {
-    background: #2C2823;
+    background: #363330;
     border-radius: 2.5vw;
     position: fixed;
     top: 50%;
@@ -212,7 +233,7 @@ body {
     height: 0; 
     border-top: 1vw solid transparent;
     border-bottom: 1vw solid transparent;
-    border-left: 2.5vw solid #2C2823;
+    border-left: 2.5vw solid #363330;
 }
 
 .up-arrow {
@@ -224,7 +245,7 @@ body {
     height: 0; 
     border-left: 1vw solid transparent;
     border-right: 1vw solid transparent;
-    border-bottom: 2.5vw solid #2C2823;
+    border-bottom: 2.5vw solid #363330;
 }
 
 .down-arrow {
@@ -236,7 +257,7 @@ body {
     height: 0; 
     border-left: 1vw solid transparent;
     border-right: 1vw solid transparent;
-    border-top: 2.5vw solid #2C2823;
+    border-top: 2.5vw solid #363330;
 }
 
 .system-text {
@@ -286,6 +307,7 @@ body {
     width: 4vw;
     height: 4vw;
     border-radius: 4vw;
+    box-shadow: -0.05vw -0.15vw 0vw 0.05vw black;
 }
 
 .b-button-text {
@@ -329,6 +351,7 @@ body {
     width: 4vw;
     height: 4vw;
     border-radius: 4vw;
+    box-shadow: -0.05vw -0.15vw 0vw 0.05vw black;
 }
 
 .a-button-text {
