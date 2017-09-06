@@ -1,0 +1,342 @@
+
+body {
+    background: #534E4B;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.controller-cord {
+    position: fixed;
+    background: black;
+    top: -5%;
+    left: 37%;
+    width: 1vw;
+    height: 55%;
+}
+
+.controller-outer-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #D0CFCB;
+    width: 50vw;
+    height: 20vw;
+    border-radius: 0.25vw;
+}
+
+.controller-inner-box {
+    background: #2C2823;
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 48vw;
+    height: 16vw;
+}
+
+.left-inner-box {
+    position: fixed;
+    display: inline-block;
+    width: 16vw;
+    height: 16vw;
+}
+
+.center-inner-box {
+    position: fixed;
+    display: inline-block;
+    left: 16vw;
+    width: 12vw;
+    height: 16vw;
+}
+
+.right-inner-box {
+    position: fixed;
+    display: inline-block;
+    left: 30vw;
+    width: 18vw;
+    height: 16vw;
+}
+
+.center-decorative-box {
+    display: inline-block;
+    position: fixed;
+    background: #A3A2A0;
+    width: 14vw;
+    height: 2vw;
+}
+
+.center-button-box {
+    display: inline-block;
+    position: fixed;
+    background: #A3A2A0;
+    width: 14vw;
+    height: 4vw;
+    top: 9vw;
+    border-radius: 0.25vw;
+}
+
+#one {
+    border-bottom-right-radius: 0.25vw;
+    border-bottom-left-radius: 0.25vw;
+}
+
+#two {
+    top: 3vw;
+    border-radius: 0.25vw;
+}
+
+#three {
+    top: 6vw;
+    border-radius: 0.25vw;
+}
+
+#four {
+    top: 14vw;
+    border-top-right-radius: 0.25vw;
+    border-top-left-radius: 0.25vw;
+}
+
+.select-start-text {
+    position: relative;
+    top: 50%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    font-size: 1vw;
+    color: red;
+}
+
+.center-button-box-inner-border {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 13.25vw;
+    height: 3.25vw;
+    border: 0.001vw solid #8D8C8A;
+    border-radius: 0.25vw;
+}
+
+.left-button {
+    background: #2C2823;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 4.5vw;
+    height: 1.5vw;
+    border-radius: 0.25vw;
+}
+
+.right-button {
+    background: #2C2823;
+    position: fixed;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 4.5vw;
+    height: 1.5vw;
+    border-radius: 0.25vw;
+}
+
+.up-down-outer-box {
+    position: fixed;
+    top: 58%;
+    left: 8vw;
+    transform: translate(-50%, -50%);
+    background: #D0CFCB;
+    width: 4vw;
+    height: 11vw;
+    border-radius: 0.4vw;
+}
+
+.left-right-outer-box {
+    position: fixed;
+    top: 58%;
+    left: 8vw;
+    transform: translate(-50%, -50%);
+    background: #D0CFCB;
+    width: 11vw;
+    height: 4vw;
+    border-radius: 0.4vw;
+}
+
+.up-down-inner-box {
+    position: fixed;
+    top: 58%;
+    left: 8vw;
+    transform: translate(-50%, -50%);
+    background: #1E1B18;
+    width: 3vw;
+    height: 10vw;
+}
+
+.left-right-inner-box {
+    position: fixed;
+    top: 58%;
+    left: 8vw;
+    transform: translate(-50%, -50%);
+    background: #1E1B18;
+    width: 10vw;
+    height: 3vw;
+}
+
+.left-arrow {
+    position: fixed;
+    top: 1.5vw;
+    left: 1.5vw;
+    transform: translate(-50%, -50%);
+    width: 0; 
+    height: 0; 
+    border-top: 1vw solid transparent;
+    border-bottom: 1vw solid transparent;
+    border-right: 2.5vw solid #2C2823;
+}
+
+.center-circle {
+    background: #2C2823;
+    border-radius: 2.5vw;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2.75vw;
+    height: 2.75vw;
+}
+
+.right-arrow {
+    position: fixed;
+    top: 1.5vw;
+    left: 8.5vw;
+    transform: translate(-50%, -50%);
+    width: 0; 
+    height: 0; 
+    border-top: 1vw solid transparent;
+    border-bottom: 1vw solid transparent;
+    border-left: 2.5vw solid #2C2823;
+}
+
+.up-arrow {
+    position: fixed;
+    top: 1.5vw;
+    left: 1.5vw;
+    transform: translate(-50%, -50%);
+    width: 0; 
+    height: 0; 
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    border-bottom: 2.5vw solid #2C2823;
+}
+
+.down-arrow {
+    position: fixed;
+    top: 8.5vw;
+    left: 1.5vw;
+    transform: translate(-50%, -50%);
+    width: 0; 
+    height: 0; 
+    border-left: 1vw solid transparent;
+    border-right: 1vw solid transparent;
+    border-top: 2.5vw solid #2C2823;
+}
+
+.system-text {
+    position: relative;
+    top: 3.5vw;
+    left: 13vw;
+    transform: translate(-50%, -50%);
+    font-size: 1.2vw;
+    color: red;
+}
+
+.b-a-buttons-container {
+    position: fixed;
+    top: 12.25vw;
+    left: 38.5vw;
+    transform: translate(-50%, -50%);
+    width: 10vw;
+    height: 6.5vw;
+}
+
+.b-button-container {
+    position: fixed;
+    top: 3vw;
+    left: 2vw;
+    transform: translate(-50%, -50%);
+    width: 4.5vw;
+    height: 7vw;
+}
+
+.b-button-outer-box {
+    background: #D0CFCB;
+    position: fixed;
+    top: 2.5vw;
+    left: 2.5vw;
+    transform: translate(-50%, -50%);
+    width: 5vw;
+    height: 5vw;
+    border-radius: 0.5vw;
+}
+
+.b-button {
+    background: red;
+    position: fixed;
+    top: 2.5vw;
+    left: 2.5vw;
+    transform: translate(-50%, -50%);
+    width: 4vw;
+    height: 4vw;
+    border-radius: 4vw;
+}
+
+.b-button-text {
+    position: fixed;
+    top: 6.25vw;
+    left: 4.5vw;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: red;
+    font-size: 1.25vw;
+}
+
+.a-button-container {
+    position: fixed;
+    top: 3vw;
+    left: 8vw;
+    transform: translate(-50%, -50%);
+    width: 4.5vw;
+    height: 7vw;
+    text-align: right;
+    color: red;
+}
+
+.a-button-outer-box {
+    background: #D0CFCB;
+    position: fixed;
+    top: 2.5vw;
+    left: 2.5vw;
+    transform: translate(-50%, -50%);
+    width: 5vw;
+    height: 5vw;
+    border-radius: 0.5vw;
+}
+
+.a-button {
+    background: red;
+    position: fixed;
+    top: 2.5vw;
+    left: 2.5vw;
+    transform: translate(-50%, -50%);
+    width: 4vw;
+    height: 4vw;
+    border-radius: 4vw;
+}
+
+.a-button-text {
+    position: fixed;
+    top: 6.25vw;
+    left: 4.5vw;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    color: red;
+    font-size: 1.25vw;
+}
