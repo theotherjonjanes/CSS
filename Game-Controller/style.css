@@ -140,7 +140,7 @@ body {
 
 .left-button:hover, .right-button:hover {
     top: 45%;
-    box-shadow: 0vw -0.05vw 0vw 0.15vw black;
+    box-shadow: 0vw -0.1vw 0vw 0.15vw black;
 }
 
 .right-button {
@@ -233,6 +233,22 @@ body {
     border-right: 2.5vw solid #363330;
 }
 
+.left-arrow:hover {
+    border-right: 2.5vw solid #302d2a;
+}
+
+.right-arrow:hover {
+    border-left: 2.5vw solid #302d2a;
+}
+
+.up-arrow:hover {
+    border-bottom: 2.5vw solid #302d2a;
+}
+
+.down-arrow:hover {
+    border-top: 2.5vw solid #302d2a;
+}
+
 .center-circle {
     background: #363330;
     border-radius: 2.5vw;
@@ -242,6 +258,10 @@ body {
     transform: translate(-50%, -50%);
     width: 2.75vw;
     height: 2.75vw;
+}
+
+.center-circle:hover {
+    background: #302d2a;
 }
 
 .right-arrow {
