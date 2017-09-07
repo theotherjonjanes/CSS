@@ -13,6 +13,19 @@ body {
     height: 55%;
 }
 
+.controller-cord-connection {
+    background: #bdbdbd;
+    position: fixed;
+    left: 11.25vw;
+    width: 2vw;
+    height: 1vw;
+    border-left: 0.001vw solid #8D8C8A;
+    border-right: 0.001vw solid #8D8C8A;
+    border-bottom: 0.001vw solid #8D8C8A;
+    border-bottom-right-radius: 0.25vw;
+    border-bottom-left-radius: 0.25vw;
+}
+
 .controller-outer-box {
     position: fixed;
     top: 50%;
@@ -26,7 +39,7 @@ body {
 }
 
 .controller-inner-box {
-    background: #36312c;
+    background: #36312C;
     position: relative;
     top: 55%;
     left: 50%;
@@ -189,6 +202,7 @@ body {
     background: #2C2823;
     width: 3vw;
     height: 10vw;
+    border-radius: 0.25vw;
 }
 
 .left-right-inner-box {
@@ -199,6 +213,7 @@ body {
     background: #2C2823;
     width: 10vw;
     height: 3vw;
+    border-radius: 0.25vw;
 }
 
 .left-arrow {
