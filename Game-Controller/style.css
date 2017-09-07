@@ -138,6 +138,11 @@ body {
     box-shadow: 0vw -0.15vw 0vw 0.2vw black;
 }
 
+.left-button:hover, .right-button:hover {
+    top: 45%;
+    box-shadow: 0vw -0.05vw 0vw 0.15vw black;
+}
+
 .right-button {
     background: #2C2823;
     position: fixed;
@@ -323,6 +328,11 @@ body {
     height: 4vw;
     border-radius: 4vw;
     box-shadow: -0.05vw -0.15vw 0vw 0.05vw black;
+}
+
+.b-button:hover, .a-button:hover {
+    top: 2.25vw;
+    box-shadow: -0.05vw 0.05vw 0vw 0.05vw black;
 }
 
 .b-button-text {
