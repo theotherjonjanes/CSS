@@ -15,7 +15,6 @@ body {
 }
 
 .mp3-screen {
-/*     display: block; */
     position: relative;
     left: 50%;
     top: 3%;
@@ -27,21 +26,7 @@ body {
     box-shadow: inset 0vw 0vw 0.1vw 0.15vw black;
 }
 
-.mp3-screen-shadow {
-/*     display: block; */
-    position: fixed;
-    left: 50%;
-    top: 3%;
-    transform: translateX(-50%);
-/*     background: darkslategrey; */
-    width: 24vw;
-    height: 20vw;
-    border: 0.1vw solid darkslategrey
-    border-radius: 0.75vw;
-}
-
 .mp3-buttons {
-/*     background: green; */
     position: relative;
     text-align: center;
     left: 50%;
@@ -52,9 +37,7 @@ body {
 }
 
 .mp3-rewind-button {
-/*     background: blue; */
     display: inline-block;
-/*     margin-right: 1vw; */
     position: absolute;
     left: 12.5%;
     top: 50%;
@@ -74,21 +57,16 @@ body {
 
 .rewind-left-line {
     background: grey;
-/*     display: none; */
     position: absolute;
-height: 1vw;
-width: 0.25vw;
-/* left:35%; */
-/*     margin: 0vw -.5vw; */
+    height: 1vw;
+    width: 0.25vw;
     left: 35%;
     top: 47.5%;
     transform: translate(-50%, -50%);
 }
 
 .rewind-center-triangle {
-/*     display: inline; */
-        position: absolute;
-/*         left: 50%; */
+    position: absolute;
     left: 50%;
     top: 47.5%;
     transform: translate(-50%, -50%);
@@ -100,14 +78,11 @@ width: 0.25vw;
 }
 
 .rewind-right-triangle {
-/*     display: none; */
-        position: absolute;
+    position: absolute;
     left: 60%;
     top: 47.5%;
     transform: translate(-50%, -50%);
     transform: translateY(-50%);
-/*         margin: 0vw 1vw; */
-
     width: 0; 
     height: 0; 
     border-top: .5vw solid transparent;
@@ -116,9 +91,7 @@ width: 0.25vw;
 }
 
 .mp3-menu-button {
-/*     background: orange; */
     display: inline-block;
-/*     margin-right: 0.5vw; */
     position: absolute;
     left: 37.5%;
     top: 50%;
@@ -141,9 +114,7 @@ width: 0.25vw;
 }
 
 .mp3-play-pause-button {
-/*     background: yellow; */
     display: inline-block;
-/*     margin-left: 0.5vw; */
     position: absolute;
     left: 62.5%;
     top: 50%;
@@ -155,21 +126,18 @@ width: 0.25vw;
 }
 
 .mp3-play-pause-button-symbol {
-        position: relative;
+    position: relative;
     left: 50%;
     top: 47.5%;
     transform: translate(-50%, -50%);
 }
 
 .play-pause-left-triangle {
-/*     display: none; */
-        position: absolute;
+    position: absolute;
     left: 30%;
     top: 47.5%;
     transform: translate(-50%, -50%);
     transform: translateY(-50%);
-/*         margin: 0vw 1vw; */
-
     width: 0; 
     height: 0; 
     border-top: .5vw solid transparent;
@@ -179,12 +147,9 @@ width: 0.25vw;
 
 .play-pause-center-line {
     background: grey;
-/*     display: none; */
     position: absolute;
-height: 1vw;
-width: 0.25vw;
-/* left:35%; */
-/*     margin: 0vw -.5vw; */
+    height: 1vw;
+    width: 0.25vw;
     left: 50%;
     top: 47.5%;
     transform: translate(-50%, -50%);
@@ -192,21 +157,16 @@ width: 0.25vw;
 
 .play-pause-right-line {
     background: grey;
-/*     display: none; */
     position: absolute;
-height: 1vw;
-width: 0.25vw;
-/* left:35%; */
-/*     margin: 0vw -.5vw; */
+    height: 1vw;
+    width: 0.25vw;
     left: 60%;
     top: 47.5%;
     transform: translate(-50%, -50%);
 }
 
 .mp3-fast-forward-button {
-/*     background: red; */
     display: inline-block;
-/*     margin-left: 1vw; */
     position: absolute;
     left: 87.5%;
     top: 50%;
@@ -225,14 +185,11 @@ width: 0.25vw;
 }
 
 .fast-forward-left-triangle {
-/*     display: none; */
-        position: absolute;
+    position: absolute;
     left: 30%;
     top: 47.5%;
     transform: translate(-50%, -50%);
     transform: translateY(-50%);
-/*         margin: 0vw 1vw; */
-
     width: 0; 
     height: 0; 
     border-top: .5vw solid transparent;
@@ -241,14 +198,11 @@ width: 0.25vw;
 }
 
 .fast-forward-center-triangle {
-/*     display: none; */
-        position: absolute;
+    position: absolute;
     left: 50%;
     top: 47.5%;
     transform: translate(-50%, -50%);
     transform: translateY(-50%);
-/*         margin: 0vw 1vw; */
-
     width: 0; 
     height: 0; 
     border-top: .5vw solid transparent;
@@ -258,40 +212,32 @@ width: 0.25vw;
 
 .fast-forward-right-line {
     background: grey;
-/*     display: none; */
     position: absolute;
-height: 1vw;
-width: 0.25vw;
-/* left:35%; */
-/*     margin: 0vw -.5vw; */
+    height: 1vw;
+    width: 0.25vw;
     left: 70%;
     top: 47.5%;
     transform: translate(-50%, -50%);
 }
 
 .mp3-outer-scroll-wheel {
-/*     background: yellow; */
     position: relative;
     left: 50%;
     top: 7%;
     transform: translateX(-50%);
     height: 20vw;
     width: 20vw;
-/*     border: 0.1vw solid grey; */
     border-radius: 20vw;
     box-shadow: inset 0vw 0vw 1.5vw 0.1vw grey;
 }
 
 .mp3-inner-scroll-wheel {
-/*     background: red; */
     position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     height: 6vw;
     width: 6vw;
-/*     border: 0.1vw none grey; */
     border-radius: 6vw;
-        box-shadow: inset 0vw 0vw 0.75vw 0.1vw grey;
-
+    box-shadow: inset 0vw 0vw 0.75vw 0.1vw grey;
 }
