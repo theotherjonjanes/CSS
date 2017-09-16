@@ -26,6 +26,15 @@ body {
     box-shadow: inset 0vw 0vw 0.1vw 0.15vw black;
 }
 
+#mp3-screen-apple-logo {
+    height: 15vw;
+    width: 15vw;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
 .mp3-buttons {
     position: relative;
     text-align: center;
