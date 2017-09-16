@@ -1,0 +1,119 @@
+body {
+    background: gray;
+}
+
+.mp3-outer-box {
+    background: white;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 32vw;
+    height: 50vw;
+    border-radius: 2vw;
+}
+
+.mp3-screen {
+/*     display: block; */
+    position: relative;
+    left: 50%;
+    top: 3%;
+    transform: translate(-50%);
+    background: grey;
+    width: 24vw;
+    height: 20vw;
+    border-radius: 0.75vw;
+}
+
+.mp3-buttons {
+/*     background: green; */
+    position: relative;
+    text-align: center;
+    left: 50%;
+    top: 4.75%;
+    transform: translate(-50%);
+    height: 5vw;
+    width: 30vw;
+
+}
+
+.mp3-rewind-button {
+/*     background: blue; */
+    display: inline-block;
+/*     margin-right: 1vw; */
+    position: absolute;
+    left: 12.5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 5.5vw;
+    width: 5.5vw;
+    border: 0.1vw solid grey;
+    border-radius: 5.5vw;
+}
+
+.mp3-menu-button {
+/*     background: orange; */
+    display: inline-block;
+/*     margin-right: 0.5vw; */
+    position: absolute;
+    left: 37.5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 5.5vw;
+    width: 5.5vw;
+    border: 0.1vw solid grey;
+    border-radius: 5.5vw;
+}
+
+.mp3-play-pause-button {
+/*     background: yellow; */
+    display: inline-block;
+/*     margin-left: 0.5vw; */
+    position: absolute;
+    left: 62.5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 5.5vw;
+    width: 5.5vw;
+    border: 0.1vw solid grey;
+    border-radius: 5.5vw;
+}
+
+.mp3-fast-forward-button {
+/*     background: red; */
+    display: inline-block;
+/*     margin-left: 1vw; */
+    position: absolute;
+    left: 87.5%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 5.5vw;
+    width: 5.5vw;
+    border: 0.1vw solid grey;
+    border-radius: 5.5vw;
+}
+
+.mp3-outer-scroll-wheel {
+/*     background: yellow; */
+    position: relative;
+    left: 50%;
+    top: 6%;
+    transform: translate(-50%);
+    height: 20vw;
+    width: 20vw;
+    border: 0.5vw solid grey;
+    border-radius: 20vw;
+
+}
+
+.mp3-inner-scroll-wheel {
+/*     background: red; */
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 6vw;
+    width: 6vw;
+    border: 0.5vw solid grey;
+    border-radius: 6vw;
+}
