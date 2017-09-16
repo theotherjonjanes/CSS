@@ -26,9 +26,10 @@ body {
     box-shadow: inset 0vw 0vw 0.1vw 0.15vw black;
 }
 
-#mp3-screen-apple-logo {
-    height: 15vw;
-    width: 15vw;
+.mp3-screen-music-note {
+    font-size: 15vw;
+    color: black;
+    opacity: 0.25;
     position: absolute;
     left: 50%;
     top: 45%;
