@@ -11,7 +11,7 @@ body {
     width: 32vw;
     height: 50vw;
     border-radius: 2vw;
-    box-shadow: 0vw 0vw 0.25vw .15vw grey, inset 0vw 0vw 1vw 0.15vw grey;
+    box-shadow: 0vw 0vw 1vw .1vw black, inset 0vw 0vw 1.25vw 0.15vw grey;
 }
 
 .mp3-screen {
@@ -19,12 +19,12 @@ body {
     position: relative;
     left: 50%;
     top: 3%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     background: slategrey;
     width: 24vw;
     height: 20vw;
     border-radius: 0.75vw;
-    box-shadow: inset 0vw 0vw 0.1vw 0.15vw darkslategrey;
+    box-shadow: inset 0vw 0vw 0.1vw 0.15vw black;
 }
 
 .mp3-screen-shadow {
@@ -32,7 +32,7 @@ body {
     position: fixed;
     left: 50%;
     top: 3%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
 /*     background: darkslategrey; */
     width: 24vw;
     height: 20vw;
@@ -46,10 +46,9 @@ body {
     text-align: center;
     left: 50%;
     top: 5.25%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     height: 5vw;
     width: 30vw;
-
 }
 
 .mp3-rewind-button {
@@ -66,6 +65,56 @@ body {
     border-radius: 5.5vw;
 }
 
+.mp3-rewind-button-symbol { 
+    position: relative;
+    left: 50%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
+}
+
+.rewind-left-line {
+    background: grey;
+/*     display: none; */
+    position: absolute;
+height: 1vw;
+width: 0.25vw;
+/* left:35%; */
+/*     margin: 0vw -.5vw; */
+    left: 35%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
+}
+
+.rewind-center-triangle {
+/*     display: inline; */
+        position: absolute;
+/*         left: 50%; */
+    left: 50%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
+    width: 0; 
+    height: 0; 
+    border-top: .5vw solid transparent;
+    border-bottom: .5vw solid transparent; 
+    border-right: .75vw solid grey; 
+}
+
+.rewind-right-triangle {
+/*     display: none; */
+        position: absolute;
+    left: 60%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
+/*         margin: 0vw 1vw; */
+
+    width: 0; 
+    height: 0; 
+    border-top: .5vw solid transparent;
+    border-bottom: .5vw solid transparent; 
+    border-right: .75vw solid grey; 
+}
+
 .mp3-menu-button {
 /*     background: orange; */
     display: inline-block;
@@ -78,6 +127,17 @@ body {
     width: 5.5vw;
     box-shadow: inset 0vw 0vw 0.5vw 0.1vw grey;
     border-radius: 5.5vw;
+}
+
+.mp3-menu-button-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25vw;
+    font-weight: bold;
+    color: gray;
+    position: absolute;
+    left: 50%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
 }
 
 .mp3-play-pause-button {
@@ -94,6 +154,55 @@ body {
     border-radius: 5.5vw;
 }
 
+.mp3-play-pause-button-symbol {
+        position: relative;
+    left: 50%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
+}
+
+.play-pause-left-triangle {
+/*     display: none; */
+        position: absolute;
+    left: 30%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
+/*         margin: 0vw 1vw; */
+
+    width: 0; 
+    height: 0; 
+    border-top: .5vw solid transparent;
+    border-bottom: .5vw solid transparent; 
+    border-left: .75vw solid grey; 
+}
+
+.play-pause-center-line {
+    background: grey;
+/*     display: none; */
+    position: absolute;
+height: 1vw;
+width: 0.25vw;
+/* left:35%; */
+/*     margin: 0vw -.5vw; */
+    left: 50%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
+}
+
+.play-pause-right-line {
+    background: grey;
+/*     display: none; */
+    position: absolute;
+height: 1vw;
+width: 0.25vw;
+/* left:35%; */
+/*     margin: 0vw -.5vw; */
+    left: 60%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
+}
+
 .mp3-fast-forward-button {
 /*     background: red; */
     display: inline-block;
@@ -108,12 +217,64 @@ body {
     border-radius: 5.5vw;
 }
 
+.mp3-fast-forward-button-symbol {
+    position: relative;
+    left: 50%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
+}
+
+.fast-forward-left-triangle {
+/*     display: none; */
+        position: absolute;
+    left: 30%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
+/*         margin: 0vw 1vw; */
+
+    width: 0; 
+    height: 0; 
+    border-top: .5vw solid transparent;
+    border-bottom: .5vw solid transparent; 
+    border-left: .75vw solid grey; 
+}
+
+.fast-forward-center-triangle {
+/*     display: none; */
+        position: absolute;
+    left: 50%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
+/*         margin: 0vw 1vw; */
+
+    width: 0; 
+    height: 0; 
+    border-top: .5vw solid transparent;
+    border-bottom: .5vw solid transparent; 
+    border-left: .75vw solid grey; 
+}
+
+.fast-forward-right-line {
+    background: grey;
+/*     display: none; */
+    position: absolute;
+height: 1vw;
+width: 0.25vw;
+/* left:35%; */
+/*     margin: 0vw -.5vw; */
+    left: 70%;
+    top: 47.5%;
+    transform: translate(-50%, -50%);
+}
+
 .mp3-outer-scroll-wheel {
 /*     background: yellow; */
     position: relative;
     left: 50%;
     top: 7%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     height: 20vw;
     width: 20vw;
 /*     border: 0.1vw solid grey; */
